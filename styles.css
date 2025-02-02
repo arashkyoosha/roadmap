@@ -1,12 +1,30 @@
+body {
+    margin: 3%;
+    border: 5px solid rgb(48, 15, 124);
+    border-radius: 3%;    
+    padding: 2%;    
+}
+
+img {      
+    height: 15%;
+    width: 15%;    
+}
+
 h1 {
     color: rgb(33, 24, 117);
 }
 
 h2 {
-    color: rgb(55, 126, 27);
+    color: rgb(55, 126, 27);    
 }
 
+address {
+    color: rgb(153, 63, 4);
+    text-shadow: 2px 2px 7px rgb(0, 38, 255);
 
-.compact {
+}
+
+address p {
     margin: 0;
 }
+
