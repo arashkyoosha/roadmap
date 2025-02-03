@@ -1,9 +1,32 @@
 body {
     margin: 3%;
-    border: 5px solid rgb(48, 15, 124);
-    border-radius: 3%;    
-    padding: 2%;    
+    border: 7px solid rgb(48, 15, 124);
+    /* border-radius: 3%;     */
+    padding: 5%;    
 }
+
+nav li {
+    display: inline;  
+     
+}
+
+nav li a {    
+    text-decoration: none; 
+    color: rgb(97, 27, 27);
+    font-weight: 700;
+    font-size: 20px;
+    border: 2px solid rgb(22, 6, 6);
+    padding: 1%;
+    margin: 1%;
+    float: right;
+}
+
+nav li a:hover {
+    color: rgb(83, 55, 158);
+    text-shadow: 2px 2px 7px rgb(0, 38, 255);
+}
+
+
 
 img {      
     height: 15%;
@@ -21,10 +44,17 @@ h2 {
 address {
     color: rgb(153, 63, 4);
     text-shadow: 2px 2px 7px rgb(0, 38, 255);
-
+    
 }
 
 address p {
     margin: 0;
 }
 
+
+.edu-au-vic-wa-nt-pre-h1 {
+    font-family: "Edu AU VIC WA NT Pre", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
